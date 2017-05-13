@@ -1,7 +1,7 @@
 /* font-family: 'Lato', sans-serif; */
 
 #sidebar {
-  height: 500px;
+  height: 1000px;
   border: 0;
 }
 
@@ -22,14 +22,16 @@
 }
 
 #headshot {
-  height: 192px;
-  width: 192px;
   float: right;
+  height: 30%;
+  width: 30%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
 img {
   display: block;
-  padding: 10px;
 }
 
 .panel {
