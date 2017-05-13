@@ -1,7 +1,8 @@
 /* font-family: 'Lato', sans-serif; */
 
 #sidebar {
-  height: 100%;
+  height: 500px;
+  border: 0;
 }
 
 .container {
@@ -10,7 +11,10 @@
 
 .jumbotron {
   font-family: 'Lato', sans-serif;
-  background-image: linear-gradient(60deg, #33FFDA, #FFFFFF);
+  color: #FFFFFF;
+  width: 98%;
+  background-image: linear-gradient(45deg, #E88E28, #E8AB28);
+  margin-top: 2px;
 }
 
 #sidebar li {
@@ -26,4 +30,22 @@
 img {
   display: block;
   padding: 10px;
+}
+
+.panel {
+  border: 0;
+}
+
+.panel h4 {
+  color: #4C737D;
+}
+
+.nav {
+  border-bottom: 0;
+}
+
+#work {
+  background-image: linear-gradient(45deg, #E88E28, #E8AB28);
+  width: 96%;
+  color: #FFFFFF;
 }
