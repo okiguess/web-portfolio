@@ -1,8 +1,11 @@
 /* font-family: 'Lato', sans-serif; */
 
 #sidebar {
-  height: 1000px;
   border: 0;
+}
+
+#sidebar li {
+  padding: 4px;
 }
 
 .container {
@@ -28,6 +31,7 @@
   padding-left: 10px;
   padding-top: 5px;
   padding-right: 5px;
+  border-radius: 15px;
 }
 
 img {
