@@ -1,28 +1,42 @@
 /* font-family: 'Lato', sans-serif; */
 
+/*general*/
+
+.container {
+  font-family: 'Lato', sans-serif;
+  height: 1000px;
+}
+
+img {
+  display: block;
+}
+
+.nav {
+  border-bottom: 0;
+}
+
+/*sidebar*/
+
 #sidebar {
+  font-family: 'Lato', sans-serif;
   border: 0;
 }
 
 #sidebar li {
-  padding: 4px;
+  list-style-type: none;
+    padding: 4px;
 }
 
-.container {
-  height: 1000px;
-}
+/*jumbotron*/
 
 .jumbotron {
-  font-family: 'Lato', sans-serif;
   color: #FFFFFF;
   width: 98%;
   background-image: linear-gradient(45deg, #E88E28, #E8AB28);
   margin-top: 2px;
 }
 
-#sidebar li {
-  list-style-type: none;
-}
+/*main content*/
 
 #headshot {
   float: right;
@@ -34,8 +48,8 @@
   border-radius: 15px;
 }
 
-img {
-  display: block;
+#aboutme {
+  margin-top: 40px;
 }
 
 .panel {
@@ -44,10 +58,6 @@ img {
 
 .panel h4 {
   color: #4C737D;
-}
-
-.nav {
-  border-bottom: 0;
 }
 
 #work {
