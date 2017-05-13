@@ -18,7 +18,6 @@ img {
 /*sidebar*/
 
 #sidebar {
-  font-family: 'Lato', sans-serif;
   border: 0;
 }
 
@@ -53,7 +52,7 @@ img {
 }
 
 .panel {
-  border: 0;
+  border: none;
 }
 
 .panel h4 {
@@ -64,4 +63,13 @@ img {
   background-image: linear-gradient(45deg, #E88E28, #E8AB28);
   width: 96%;
   color: #FFFFFF;
+}
+
+#work li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+#skills {
+  margin-top: 40px;
 }
