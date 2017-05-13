@@ -1,7 +1,31 @@
+/* font-family: 'Lato', sans-serif; */
+
 #sidebar {
   height: 100%;
 }
 
 .container {
   height: 100%;
+}
+
+.body {
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+  font-family: 'Lato', sans-serif;
+}
+
+#sidebar li {
+  list-style-type: none;
+}
+
+#headshot {
+  height: 192px;
+  width: 192px;
+  float: right;
+}
+
+img {
+  display: block;
 }
